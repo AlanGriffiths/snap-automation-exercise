@@ -43,6 +43,10 @@ parts:
     source-type: git
     source-tag: '0.1.4'
     source-depth: 1
+# ext:updatesnap
+#   version-format:
+#     lower-than: '2'
+#     mo-9x-revisions: true
     plugin: make
     override-pull: |
       craftctl default
